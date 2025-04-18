@@ -1,0 +1,1 @@
+# FastAPI backend enrichi avec /api/stats et /api/meubles/:id
