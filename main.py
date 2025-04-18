@@ -5,4 +5,12 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello from PilePoil"}
+    return {"message": "Bienvenue sur l'API PilePoil v1.5 🚀"}
+
+@app.get("/api/stats")
+def stats():
+    return {
+        "nb_produits": 0,
+        "enseignes": ["BUT", "Conforama"],
+        "updatedAt": "à compléter"
+    }
