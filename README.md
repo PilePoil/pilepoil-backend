@@ -1,3 +1,3 @@
-# PilePoil v1.5
+# PilePoil Backend v1.5
 
-Backend, scraping, enrichissement et front test.
+API REST FastAPI avec connexion MongoDB Atlas.
